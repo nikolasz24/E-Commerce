@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="faq.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>FAQ</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Frequently Asked Questions</h1>
+
+<h2>Order Process</h2>
+        <div class="faq">
+            <button class="q1">
+                How to order?
+                <i class='bx bx-chevron-down'></i>
+             </button>
+             <div class="q1a">
+                <p> 1. Look for the item you like and click add to cart. <br> 
+                    2. Review the item/s on your cart then complete the needed shipping details. <br>
+                    3. Choose your preferred shipping method, either standard shipping or pick up. <br>
+                    4. Select the payment method. Afterwards, click confirm order.<br>
+                    <br>
+                    Once done, you'll receive an email confirmation notifying you that you have completed placing an order.
+                </p>
+               </div>
+        </div>
+
+        <div class="faq">
+            <button class="q1">
+                What are the Payment Options?
+                <i class='bx bx-chevron-down'></i>
+             </button>
+             <div class="q1a">
+                <p> <li>Payment in Store</li>
+                    <li>Cash on Delivery</li>
+                    <li>Gcash</li>
+                    <li>Credit/Debit/Maya</li>
+               </div>
+        </div>
+
+<h2>Shipping</h2>
+        <div class="faq">
+            <button class="q1">
+                How to track my orders?
+                <i class='bx bx-chevron-down'></i>
+             </button>
+             <div class="q1a">
+                <p><li>Standard Shipping/Cash on delivery - we will send you an email with your tracking number and tracking link as soon as we turn it over to our courier.</li>
+                    <li>Pick up at Store - we'll send you an SMS once your order is ready for pick up.</li>
+                    <li>For orders that are not yet paid, the last day that you can claim your order will be included in the message.</li>
+                </p>
+               </div>
+        </div>
+
+        <div class="faq">
+            <button class="q1">
+                When will my order arrive?
+                <i class='bx bx-chevron-down'></i>
+             </button>
+             <div class="q1a">
+                <p> Kindly see delivery timelines: <br>
+                    <br>
+                    <li>Standard shipping - 5 to 10 business days</li>
+                    <li>Cash on delivery - 5 to 10 business days</li>
+                    <li>Pay in store - 1 to 5 business days</li>
+                </p>
+               </div>
+        </div>
+
+        <h2>Returns</h2>
+        <div class="faq">
+            <button class="q1">
+                How can I return my order?
+                <i class='bx bx-chevron-down'></i>
+             </button>
+             <div class="q1a">
+                <p> We allow returns/exchanges within 30 days. Here are the following guidelines: <br>
+                     <br>
+                     <li>Send your request to kickventures@gmail.com along with the details of your preferred replacement item.</li>
+                     <li>Make sure that the details are correct because you can only return and exchange once.</li>
+                     <li>Once confirmed by our team, you will be asked to ship the original item back to us.</li>
+                     <li>When shipping out your item, please make sure that it will be securely packed and will be returned to us in its original (good) condition. Items that arrived as damaged to us will not be eligible for a return/exchange.</li>
+                     <li>If your replacement item is of a higher amount, you will have to settle the difference. Also, please note that all return/exchange costs will be shouldered by the customer.</li>
+                     <li>When you have settled everything, then we can proceed with the shipment of your new item.</li>
+                    </p>
+               </div>
+        </div>
+
+    </div>
+
+    <script> 
+    var acc = document.getElementsByClassName
+    ("q1");
+    var i;
+
+    for(i = 0; i < acc.length ; i++){
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            this.parentElement.classList.toggle("active");
+
+            var pannel = this.nextElementSibling;
+
+            if (pannel.style.display === "block") {
+                pannel.style.display = "none";
+            } else {
+                pannel.style.display = "block"; 
+            }
+        });
+    }
+    </script>
+    
+</body>
+</html>
