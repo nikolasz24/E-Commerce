@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@
 }
 
 .q1 {
-    background-color: rgb(171, 205, 146);
+    background-color: #000000;
     color: whitesmoke;
     cursor: pointer;
     font-size: 1.2rem;
@@ -44,7 +44,7 @@ li {
 }
 
 .active, .q1:hover {
-    background-color: rgb(217, 158, 195);
+    background-color: #696969;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -54,7 +54,7 @@ li {
     border-radius: 0 0 10px 10px;
     display: none;
     overflow: hidden;
-    background-color: rgb(217, 158, 195);
+    background-color: #696969;
     padding: 0 2rem 2.5rem 2rem;
 
 }
