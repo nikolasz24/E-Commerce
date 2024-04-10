@@ -42,21 +42,9 @@ body {
     overflow: hidden;
 }
  
-/*
-.card .circle::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: blue;
-    clip-path: square(120px at center);
-    transition: 0.5s;
-} */
 
 .card:hover .circle:hover {
-    background: rgb(171, 205, 146);
+    background: #696969;
     clip-path: square(400px at center);
 }
 
