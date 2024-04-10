@@ -23,7 +23,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    background: rgb(171, 205, 146);
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 1rem hsla(0 0 0/ 16%);
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -43,10 +44,10 @@ body{
     width: 100%;
     border: none;
     outline: none;
-    background: whitesmoke; 
+    background: rgb(25, 23, 23); 
     padding: 10px;
     font-size: 0.9rem;
-    color: black;
+    color: whitesmoke;
     border-radius: 0.4rem;
 }
 .contact-form textarea {
@@ -63,7 +64,7 @@ body{
     cursor: pointer;
 }
 .contact-form .send-button {
-    background: rgb(217, 158, 195);
+    background: rgb(60, 60, 60);
     transition: 0.3 all linear;
 }
 .map iframe {
